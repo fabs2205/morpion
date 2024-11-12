@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/morpion.css">
+    <title>Morpion</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <main>
+
+        <div id="menu">
+           
+            <button id="jvsj">Joueur vs Joueur</button>
+            <p id="titre"><strong>XO</strong></p>
+            <button id="jvsia">Joueur vs IA</button>
+        </div>
+        <div class="hidden" id="cacher">
+            <div class="grille">
+                <div class="ligne">
+                    <div class="cellule"></div>
+                    <div class="cellule"></div>
+                    <div class="cellule"></div>
+                </div>
+                <div class="ligne">
+                    <div class="cellule"></div>
+                    <div class="cellule"></div>
+                    <div class="cellule"></div>
+
+                </div>
+                <div class="ligne">
+                    <div class="cellule"></div>
+                    <div class="cellule"></div>
+                    <div class="cellule"></div>
+                </div>
+            </div>
+            <div id="win"></div>
+            <div id="end" >
+            <button id="recommencer">Recommencer</button>
+            <button id="quitter">Quitter</button>
+        </div>
+        </div>
+
+
+    </main>
+    <script src="./asset/js/morpion.js"></script>
+</body>
+
+</html>
